@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recipe Book</title>
+    <title>Carte de Rețete</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -17,10 +17,25 @@
         .recipe h2 {
             margin-top: 0;
         }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        .instructions {
+            white-space: pre-line;
+        }
     </style>
 </head>
 <body>
-    <h1>My Recipe Book</h1>
+    <h1>Carte de Rețete</h1>
     <div id="recipes-container"></div>
 
     <script>
@@ -37,17 +52,40 @@
                     recipeName.textContent = recipe.name;
                     recipeDiv.appendChild(recipeName);
 
-                    const recipeInstructions = document.createElement('p');
-                    recipeInstructions.textContent = `Instructions: ${recipe.instructions}`;
-                    recipeDiv.appendChild(recipeInstructions);
+                    const ingredientsTitle = document.createElement('h3');
+                    ingredientsTitle.textContent = 'Ingrediente';
+                    recipeDiv.appendChild(ingredientsTitle);
 
-                    const ingredientsList = document.createElement('ul');
+                    const ingredientsTable = document.createElement('table');
+                    const tableHeader = document.createElement('tr');
+                    const headerName = document.createElement('th');
+                    headerName.textContent = 'Nume';
+                    const headerQuantity = document.createElement('th');
+                    headerQuantity.textContent = 'Cantitate';
+                    tableHeader.appendChild(headerName);
+                    tableHeader.appendChild(headerQuantity);
+                    ingredientsTable.appendChild(tableHeader);
+
                     recipe.ingredients.forEach(ingredient => {
-                        const ingredientItem = document.createElement('li');
-                        ingredientItem.textContent = `${ingredient.name}: ${ingredient.quantityValue} ${ingredient.quantityMetric}`;
-                        ingredientsList.appendChild(ingredientItem);
+                        const ingredientRow = document.createElement('tr');
+                        const ingredientName = document.createElement('td');
+                        ingredientName.textContent = ingredient.name;
+                        const ingredientQuantity = document.createElement('td');
+                        ingredientQuantity.textContent = `${ingredient.quantityValue} ${ingredient.quantityMetric}`;
+                        ingredientRow.appendChild(ingredientName);
+                        ingredientRow.appendChild(ingredientQuantity);
+                        ingredientsTable.appendChild(ingredientRow);
                     });
-                    recipeDiv.appendChild(ingredientsList);
+                    recipeDiv.appendChild(ingredientsTable);
+
+                    const instructionsTitle = document.createElement('h3');
+                    instructionsTitle.textContent = 'Instrucțiuni';
+                    recipeDiv.appendChild(instructionsTitle);
+
+                    const recipeInstructions = document.createElement('p');
+                    recipeInstructions.className = 'instructions';
+                    recipeInstructions.textContent = recipe.instructions;
+                    recipeDiv.appendChild(recipeInstructions);
 
                     recipesContainer.appendChild(recipeDiv);
                 });

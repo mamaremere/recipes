@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.recipe {
+  border: 1px solid #ddd;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  page-break-inside: avoid; /* Ensure each recipe starts on a new page when printing */
+}
+.recipe h2 {
+  margin-top: 0;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+table, th, td {
+  border: 1px solid black;
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+.instructions {
+  white-space: pre-line;
+}
+.print-button {
+  display: inline-block;
+  margin-top: 10px;
+}
+@media print {
+  body, .recipe {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      border: none;
+  }
+  .print-button {
+      display: none;
+  }
+}

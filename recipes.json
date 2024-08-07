@@ -1,18 +1,78 @@
 {
   "recipes": [
     {
-      "name": "My Awesome Recipe",
-      "instructions": "Steps to make the recipe",
+      "name": "Pui cu Chorizo într-o singură oală",
+      "instructions": "În mai puțin de o oră, preparăm pui cu chorizo într-o singură oală. Această rețetă costă mai puțin de zece dolari pe porție și servește patru persoane. Toate ingredientele sunt de înaltă calitate. Să începem!\n\n1. Pentru această rețetă, avem nevoie de două tipuri diferite de roșii: 400g roșii normale și 400g roșii cherry. Vom lăsa roșiile cherry întregi, iar pe cele normale le vom tăia în bucăți egale.\n2. Chorizo (200g) se taie în felii subțiri. Acestea vor produce grăsimea necesară pentru a găti puiul.\n3. Curăță și zdrobește 6 căței de usturoi.\n4. Adaugă 5g de cimbru. Poți folosi cimbru lămâios sau cimbru obișnuit.\n5. Dacă dorești, poți adăuga tulpini de busuioc proaspăt pentru aromă.\n6. Adaugă 1kg de piept de pui dezosat și fără piele într-un bol și asezonează cu sare și piper.\n7. Într-o tigaie mare, adaugă chorizo și gătește-l timp de 2-3 minute până devine auriu. Scoate-l și pune-l deoparte.\n8. Adaugă puiul în tigaie în loturi, gătește-l câte 3-4 minute pe fiecare parte până devine auriu. Scoate-l și pune-l deoparte.\n9. Adaugă 1 lingură de ulei de măsline extra virgin, roșiile tocate și roșiile cherry întregi. Asezonează cu sare și piper și gătește timp de 2-3 minute.\n10. Adaugă 1 lingură de oțet balsamic și usturoiul zdrobit. Adaugă și chorizo și tot uleiul din tigaie.\n11. Adaugă cimbrul tocat sau buchetul de cimbru și tulpinile de busuioc. Gătește timp de 2 minute.\n12. Adaugă 250ml de supă de pui sau de legume și amestecă bine. Lasă să fiarbă la foc mic.\n13. Adaugă puiul înapoi în tigaie, asigurându-te că este acoperit cu lichid. Adu la fierbere și apoi transferă tigaia într-un cuptor preîncălzit la 190°C și gătește timp de 45 de minute.\n14. După 45 de minute, scoate tigaia din cuptor și servește cu felii de pâine prăjită. Garnisește cu frunze de busuioc proaspăt și piper negru proaspăt măcinat.\n\nAceastă rețetă este delicioasă servită cu piure de cartofi sau legumele preferate.",
       "ingredients": [
         {
-          "name": "Ingredient Name",
-          "quantityMetric": "grams",
+          "name": "Chorizo",
+          "quantityMetric": "gram",
           "quantityValue": 200
         },
         {
-          "name": "Another Ingredient",
-          "quantityMetric": "ml",
-          "quantityValue": 100
+          "name": "Pulpe de pui, dezosate și fără piele",
+          "quantityMetric": "kilogram",
+          "quantityValue": 1
+        },
+        {
+          "name": "Ulei de măsline extra virgin",
+          "quantityMetric": "lingură",
+          "quantityValue": 1
+        },
+        {
+          "name": "Roșii cherry",
+          "quantityMetric": "gram",
+          "quantityValue": 400
+        },
+        {
+          "name": "Roșii Roma sau Gourmet, tocate",
+          "quantityMetric": "gram",
+          "quantityValue": 400
+        },
+        {
+          "name": "Căței de usturoi, zdrobiți",
+          "quantityMetric": "bucăți",
+          "quantityValue": 6
+        },
+        {
+          "name": "Tulpini de busuioc (opțional)",
+          "quantityMetric": "bucăți",
+          "quantityValue": 4
+        },
+        {
+          "name": "Cimbru (opțional)",
+          "quantityMetric": "gram",
+          "quantityValue": 5
+        },
+        {
+          "name": "Oțet balsamic sau oțet de mere",
+          "quantityMetric": "lingură",
+          "quantityValue": 1
+        },
+        {
+          "name": "Supă de pui sau de legume",
+          "quantityMetric": "mililitru",
+          "quantityValue": 250
+        },
+        {
+          "name": "Zahăr, după gust",
+          "quantityMetric": "după gust",
+          "quantityValue": 0
+        },
+        {
+          "name": "Condimente, după gust",
+          "quantityMetric": "după gust",
+          "quantityValue": 0
+        },
+        {
+          "name": "Frunze de busuioc, pentru garnisire",
+          "quantityMetric": "după gust",
+          "quantityValue": 0
+        },
+        {
+          "name": "Pâine prăjită, pentru servire",
+          "quantityMetric": "după gust",
+          "quantityValue": 0
         }
       ]
     }

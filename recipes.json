@@ -75,6 +75,94 @@
           "quantityValue": 0
         }
       ]
+    },
+    {
+      "name": "Tocăniță de Vită cu Ceapă și Piure de Usturoi",
+      "instructions": "1. Curățați 3 cepe mari galbene sau brune, lăsând rădăcina intactă. Tăiați-le în opt bucăți egale.\n2. Tăiați 2 tulpini de țelină în felii subțiri.\n3. Feliați subțire sau în sferturi 250g de ciuperci Swiss Brown.\n4. Curățați și feliați subțire 5 căței mari de usturoi.\n5. Tăiați grosier 10g de cimbru proaspăt.\n6. Tăiați 1kg de carne de vită (Bolar Blade sau Chuck) în cuburi și asezonați cu sare de mare și 25g de făină simplă.\n7. Într-o tigaie mare, încălziți 40ml de ulei de măsline la foc mare. Rumeniți carnea de vită în loturi, aproximativ 3 minute pe fiecare parte, până se formează o crustă aurie. Transferați carnea într-un bol.\n8. Adăugați 20ml de ulei de măsline în tigaie și reduceți focul la mediu. Sotați ceapa, țelina și ciupercile cu un praf mare de sare de mare timp de 5 minute.\n9. Adăugați usturoiul și 150ml de vin roșu (sau supă de vită) și fierbeți 2 minute.\n10. Adăugați carnea și sucurile rămase în tigaie, împreună cu 650ml de supă de vită și cimbru. Aduceți la fierbere, apoi acoperiți și gătiți la foc mic timp de 1,5 ore.\n11. Între timp, pregătiți piureul de usturoi: Fierbeți 1kg de cartofi în apă rece, timp de 22-23 minute, până devin moi. Scurgeți și lăsați să se răcească 15 minute.\n12. Într-o tigaie, topiți 150g de unt nesărat la foc mediu, adăugați usturoiul măcinat și gătiți 3 minute.\n13. Pisați cartofii fierți până devin un piure fin. Adăugați 150ml de lapte integral încălzit și untul cu usturoi. Condimentați cu sare și piper alb.\n14. După 1,5 ore, adăugați 1 legătură de morcovi tineri spălați în tocăniță și gătiți încă 30 minute.\n15. Pentru servire, puneți piureul pe farfurie, adăugați untul cu usturoi și usturoiul crocant deasupra, apoi puneți tocănița de vită și legumele. Gustați și condimentați după preferințe.",
+      "ingredients": [
+        {
+          "name": "Carne de vită (Bolar Blade sau Chuck)",
+          "quantityMetric": "kg",
+          "quantityValue": 1
+        },
+        {
+          "name": "Făină simplă",
+          "quantityMetric": "g",
+          "quantityValue": 25
+        },
+        {
+          "name": "Ulei de măsline",
+          "quantityMetric": "ml",
+          "quantityValue": 60
+        },
+        {
+          "name": "Ceapă galbenă/brună",
+          "quantityMetric": "bucăți",
+          "quantityValue": 3
+        },
+        {
+          "name": "Tulpini de țelină",
+          "quantityMetric": "bucăți",
+          "quantityValue": 2
+        },
+        {
+          "name": "Ciuperci Swiss Brown",
+          "quantityMetric": "g",
+          "quantityValue": 250
+        },
+        {
+          "name": "Căței de usturoi",
+          "quantityMetric": "bucăți",
+          "quantityValue": 5
+        },
+        {
+          "name": "Vin roșu",
+          "quantityMetric": "ml",
+          "quantityValue": 150
+        },
+        {
+          "name": "Supă de vită",
+          "quantityMetric": "ml",
+          "quantityValue": 650
+        },
+        {
+          "name": "Cimbru proaspăt",
+          "quantityMetric": "g",
+          "quantityValue": 10
+        },
+        {
+          "name": "Morcovi tineri",
+          "quantityMetric": "legătură",
+          "quantityValue": 1
+        },
+        {
+          "name": "Cartofi cu amidon ridicat",
+          "quantityMetric": "kg",
+          "quantityValue": 1
+        },
+        {
+          "name": "Unt nesărat",
+          "quantityMetric": "g",
+          "quantityValue": 150
+        },
+        {
+          "name": "Lapte integral",
+          "quantityMetric": "ml",
+          "quantityValue": 150
+        },
+        {
+          "name": "Sare de mare",
+          "quantityMetric": "după gust",
+          "quantityValue": 0
+        },
+        {
+          "name": "Piper alb măcinat",
+          "quantityMetric": "după gust",
+          "quantityValue": 0
+        }
+      ]
     }
+    
+    
   ]
 }

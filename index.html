@@ -13,6 +13,7 @@
             margin: 20px;
             padding: 20px;
             border-radius: 5px;
+            page-break-inside: avoid; /* Ensure each recipe starts on a new page when printing */
         }
         .recipe h2 {
             margin-top: 0;
@@ -32,6 +33,21 @@
         .instructions {
             white-space: pre-line;
         }
+        .print-button {
+            display: inline-block;
+            margin-top: 10px;
+        }
+        @media print {
+            body, .recipe {
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                border: none;
+            }
+            .print-button {
+                display: none;
+            }
+        }
     </style>
 </head>
 <body>
@@ -48,9 +64,29 @@
                     const recipeDiv = document.createElement('div');
                     recipeDiv.className = 'recipe';
 
+                    const recipeHeader = document.createElement('div');
+                    recipeHeader.style.display = 'flex';
+                    recipeHeader.style.justifyContent = 'space-between';
+                    recipeHeader.style.alignItems = 'center';
+
                     const recipeName = document.createElement('h2');
                     recipeName.textContent = recipe.name;
-                    recipeDiv.appendChild(recipeName);
+                    recipeHeader.appendChild(recipeName);
+
+                    const printButton = document.createElement('button');
+                    printButton.className = 'print-button';
+                    printButton.textContent = 'Printează rețeta';
+                    printButton.onclick = () => {
+                        const printContents = recipeDiv.innerHTML;
+                        const originalContents = document.body.innerHTML;
+                        document.body.innerHTML = printContents;
+                        window.print();
+                        document.body.innerHTML = originalContents;
+                        window.location.reload();
+                    };
+                    recipeHeader.appendChild(printButton);
+
+                    recipeDiv.appendChild(recipeHeader);
 
                     const ingredientsTitle = document.createElement('h3');
                     ingredientsTitle.textContent = 'Ingrediente';

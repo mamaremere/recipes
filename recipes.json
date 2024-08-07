@@ -1,0 +1,20 @@
+{
+  "recipes": [
+    {
+      "name": "My Awesome Recipe",
+      "instructions": "Steps to make the recipe",
+      "ingredients": [
+        {
+          "name": "Ingredient Name",
+          "quantityMetric": "grams",
+          "quantityValue": 200
+        },
+        {
+          "name": "Another Ingredient",
+          "quantityMetric": "ml",
+          "quantityValue": 100
+        }
+      ]
+    }
+  ]
+}

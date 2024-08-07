@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Book</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .recipe {
+            border: 1px solid #ddd;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .recipe h2 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Recipe Book</h1>
+    <div id="recipes-container"></div>
+
+    <script>
+        // Fetch the JSON file and display recipes
+        fetch('recipes.json')
+            .then(response => response.json())
+            .then(data => {
+                const recipesContainer = document.getElementById('recipes-container');
+                data.recipes.forEach(recipe => {
+                    const recipeDiv = document.createElement('div');
+                    recipeDiv.className = 'recipe';
+
+                    const recipeName = document.createElement('h2');
+                    recipeName.textContent = recipe.name;
+                    recipeDiv.appendChild(recipeName);
+
+                    const recipeInstructions = document.createElement('p');
+                    recipeInstructions.textContent = `Instructions: ${recipe.instructions}`;
+                    recipeDiv.appendChild(recipeInstructions);
+
+                    const ingredientsList = document.createElement('ul');
+                    recipe.ingredients.forEach(ingredient => {
+                        const ingredientItem = document.createElement('li');
+                        ingredientItem.textContent = `${ingredient.name}: ${ingredient.quantityValue} ${ingredient.quantityMetric}`;
+                        ingredientsList.appendChild(ingredientItem);
+                    });
+                    recipeDiv.appendChild(ingredientsList);
+
+                    recipesContainer.appendChild(recipeDiv);
+                });
+            });
+    </script>
+</body>
+</html>

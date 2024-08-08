@@ -8,9 +8,7 @@ fetch('recipes.json')
             recipeDiv.className = 'recipe';
 
             const recipeHeader = document.createElement('div');
-            recipeHeader.style.display = 'flex';
-            recipeHeader.style.justifyContent = 'space-between';
-            recipeHeader.style.alignItems = 'center';
+            recipeHeader.className = 'recipe-header';
 
             const recipeName = document.createElement('h2');
             const recipeNameIndex = document.createElement('span');
@@ -21,18 +19,21 @@ fetch('recipes.json')
             recipeName.appendChild(recipeNameIndex);
             recipeName.appendChild(recipeNameContent);
             recipeHeader.appendChild(recipeName);
+            recipeDiv.appendChild(recipeHeader);
+
+            const recipeContent = document.createElement('div');
+            recipeContent.className = 'recipe-content';
 
             const printButton = document.createElement('button');
             printButton.className = 'print-button';
             printButton.textContent = 'Printează rețeta';
             printButton.onclick = () => printRecipe(recipeDiv);
 
-            recipeHeader.appendChild(printButton);
-            recipeDiv.appendChild(recipeHeader);
+            recipeContent.appendChild(printButton);
 
             const ingredientsTitle = document.createElement('h3');
             ingredientsTitle.textContent = 'Ingrediente';
-            recipeDiv.appendChild(ingredientsTitle);
+            recipeContent.appendChild(ingredientsTitle);
 
             const ingredientsTable = document.createElement('table');
             const tableHeader = document.createElement('tr');
@@ -54,16 +55,27 @@ fetch('recipes.json')
                 ingredientRow.appendChild(ingredientQuantity);
                 ingredientsTable.appendChild(ingredientRow);
             });
-            recipeDiv.appendChild(ingredientsTable);
+            recipeContent.appendChild(ingredientsTable);
 
             const instructionsTitle = document.createElement('h3');
             instructionsTitle.textContent = 'Instrucțiuni';
-            recipeDiv.appendChild(instructionsTitle);
+            recipeContent.appendChild(instructionsTitle);
 
             const recipeInstructions = document.createElement('p');
             recipeInstructions.className = 'instructions';
             recipeInstructions.textContent = recipe.instructions;
-            recipeDiv.appendChild(recipeInstructions);
+            recipeContent.appendChild(recipeInstructions);
+
+            recipeDiv.appendChild(recipeContent);
+
+            // Toggle the visibility of the recipe content
+            recipeHeader.onclick = () => {
+                if (recipeContent.style.display === 'none' || recipeContent.style.display === '') {
+                    recipeContent.style.display = 'block';
+                } else {
+                    recipeContent.style.display = 'none';
+                }
+            };
 
             recipesContainer.appendChild(recipeDiv);
         });

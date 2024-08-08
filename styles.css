@@ -1,21 +1,60 @@
 body {
   font-family: Arial, sans-serif;
 }
+
 .recipe {
   border: 1px solid #ddd;
   margin: 20px;
   padding: 20px;
   border-radius: 5px;
-  page-break-inside: avoid; /* Ensure each recipe starts on a new page when printing */
 }
-.recipe h2 {
-  margin-top: 0;
+
+.recipe-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
 }
+
+.recipe-content {
+  display: none;
+  padding-top: 10px;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
   margin-bottom: 20px;
 }
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+.instructions {
+  white-space: pre-line;
+}
+
+@media print {
+  body, .recipe {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      border: none;
+  }
+  .print-button {
+      display: none;
+  }
+}
+
 @media (min-width: 500px) and (max-width: 900px) {
   table {
       width: 75%;
@@ -26,18 +65,4 @@ table {
   table {
       width: 50%;
   }
-}
-table, th, td {
-  border: 1px solid black;
-}
-th, td {
-  padding: 8px;
-  text-align: left;
-}
-.instructions {
-  white-space: pre-line;
-}
-.print-button {
-  display: inline-block;
-  margin-top: 10px;
 }

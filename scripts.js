@@ -71,7 +71,6 @@ function printRecipe(recipeDiv) {
             <title>Printează rețeta</title>
             <style>
                 body { font-family: Arial, sans-serif; margin: 20px; }
-                .recipe { border: 1px solid #ddd; padding: 20px; border-radius: 5px; }
                 h2 { margin-top: 0; }
                 table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
                 table, th, td { border: 1px solid black; }

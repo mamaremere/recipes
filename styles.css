@@ -16,6 +16,17 @@ table {
   border-collapse: collapse;
   margin-bottom: 20px;
 }
+@media (min-width: 500px) and (max-width: 900px) {
+  table {
+      width: 75%;
+  }
+}
+
+@media (min-width: 900px) {
+  table {
+      width: 50%;
+  }
+}
 table, th, td {
   border: 1px solid black;
 }

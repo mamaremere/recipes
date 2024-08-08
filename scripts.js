@@ -31,6 +31,13 @@ fetch('recipes.json')
 
             recipeContent.appendChild(printButton);
 
+            const a = document.createElement('a');
+            a.href = recipe.videoLink;
+            a.target = "_blank";
+            a.textContent = "Vezi pe Youtube";
+            a.className = "video-link"
+            recipeContent.appendChild(a);
+
             const ingredientsTitle = document.createElement('h3');
             ingredientsTitle.textContent = 'Ingrediente';
             recipeContent.appendChild(ingredientsTitle);
@@ -94,7 +101,7 @@ function printRecipe(recipeDiv) {
                 table, th, td { border: 1px solid black; }
                 th, td { padding: 8px; text-align: left; }
                 .instructions { white-space: pre-line; }
-                .print-button, .recipe-name-index { display: none; }
+                .print-button, .recipe-name-index, .video-link { display: none; }
             </style>
         </head>
         <body>

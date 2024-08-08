@@ -37,6 +37,7 @@ Description:
 Json output for the recipe:
 {
   "name": "New Recipe Name",
+  "videoLink": "$VIDEO_URL",
   "instructions": "Instructions in Romanian",
   "ingredients": [
     {

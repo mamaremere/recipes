@@ -43,16 +43,8 @@ th, td {
   white-space: pre-line;
 }
 
-@media print {
-  body, .recipe {
-      width: 100%;
-      margin: 0;
-      padding: 0;
-      border: none;
-  }
-  .print-button {
-      display: none;
-  }
+.video-link {
+  padding-left: 20px;
 }
 
 @media (min-width: 500px) and (max-width: 900px) {

@@ -3,7 +3,7 @@ fetch('recipes.json')
     .then(response => response.json())
     .then(data => {
         const recipesContainer = document.getElementById('recipes-container');
-        data.recipes.forEach(recipe => {
+        data.recipes.forEach((recipe, recipeIndex) => {
             const recipeDiv = document.createElement('div');
             recipeDiv.className = 'recipe';
 
@@ -13,7 +13,13 @@ fetch('recipes.json')
             recipeHeader.style.alignItems = 'center';
 
             const recipeName = document.createElement('h2');
-            recipeName.textContent = recipe.name;
+            const recipeNameIndex = document.createElement('span');
+            const recipeNameContent = document.createElement('span');
+            recipeNameIndex.textContent = `${recipeIndex + 1}. `;
+            recipeNameIndex.className = 'recipe-name-index';
+            recipeNameContent.textContent = recipe.name;
+            recipeName.appendChild(recipeNameIndex);
+            recipeName.appendChild(recipeNameContent);
             recipeHeader.appendChild(recipeName);
 
             const printButton = document.createElement('button');
@@ -76,6 +82,7 @@ function printRecipe(recipeDiv) {
                 table, th, td { border: 1px solid black; }
                 th, td { padding: 8px; text-align: left; }
                 .instructions { white-space: pre-line; }
+                .print-button, .recipe-name-index { display: none; }
             </style>
         </head>
         <body>

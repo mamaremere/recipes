@@ -41,14 +41,3 @@ th, td {
   display: inline-block;
   margin-top: 10px;
 }
-@media print {
-  body, .recipe {
-      width: 100%;
-      margin: 0;
-      padding: 0;
-      border: none;
-  }
-  .print-button {
-      display: none;
-  }
-}

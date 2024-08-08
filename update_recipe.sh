@@ -15,14 +15,22 @@ else
 fi
 
 VIDEO_URL=$1
-VIDEO_ID=$(echo $VIDEO_URL | sed 's/.*v=\([^&]*\).*/\1/')
+# Extract the video ID
+if [[ $VIDEO_URL =~ ^https://www\.youtube\.com/watch\?v=([^&]+) ]]; then
+    VIDEO_ID=${BASH_REMATCH[1]}
+elif [[ $VIDEO_URL =~ ^https://youtu\.be/([^?&]+) ]]; then
+    VIDEO_ID=${BASH_REMATCH[1]}
+else
+    echo "Invalid YouTube URL"
+    exit 1
+fi
 
 # Get video details using YouTube API
 VIDEO_DETAILS=$(curl -s "https://www.googleapis.com/youtube/v3/videos?id=$VIDEO_ID&key=$YOUTUBE_API_KEY&part=snippet,contentDetails")
 DESCRIPTION=$(echo $VIDEO_DETAILS | jq -r '.items[0].snippet.description')
 
 # Get video captions using YouTube API
-TRANSCRIPT=$(youtube_transcript_api.exe "$VIDEO_ID" --format text | awk '{printf "%s ", $0}')
+TRANSCRIPT=$(youtube_transcript_api "$VIDEO_ID" --format text | awk '{printf "%s ", $0}')
 
 # Create the prompt
 PROMPT=$(cat <<EOF
@@ -38,7 +46,7 @@ Json output for the recipe:
 {
   "name": "New Recipe Name",
   "videoLink": "$VIDEO_URL",
-  "instructions": "Instructions in Romanian",
+  "instructions": "Instructions in Romanian - single string with steps separated by new line character",
   "ingredients": [
     {
       "name": "Ingredient Name",

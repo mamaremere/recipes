@@ -1,8 +1,32 @@
 let shoppingList = [];
 
 function updateShoppingList() {
-  // Sort the shopping list by ingredient name
-  shoppingList.sort((a, b) => a.name.localeCompare(b.name));
+  // Create a map to group ingredients by name
+  const ingredientMap = new Map();
+
+  // Iterate over the shopping list to group and sum quantities
+  shoppingList.forEach((item) => {
+    if (ingredientMap.has(item.name)) {
+      const existingEntry = ingredientMap.get(item.name);
+      if (existingEntry[item.quantityMetric]) {
+        // If the metric matches, add the quantities
+        existingEntry[item.quantityMetric] += item.quantityValue;
+      } else {
+        // If the metric doesn't match, add a new metric entry
+        existingEntry[item.quantityMetric] = item.quantityValue;
+      }
+    } else {
+      // If the ingredient doesn't exist in the map, create a new entry
+      ingredientMap.set(item.name, {
+        [item.quantityMetric]: item.quantityValue,
+      });
+    }
+  });
+
+  // Convert the map to an array and sort it alphabetically by ingredient name
+  const sortedIngredients = Array.from(ingredientMap.entries()).sort((a, b) =>
+    a[0].localeCompare(b[0])
+  );
 
   // Get the shopping list container
   const shoppingListContainer = document.getElementById(
@@ -15,10 +39,13 @@ function updateShoppingList() {
   // Create a ul element
   const ul = document.createElement("ul");
 
-  // Populate the ul with li elements for each ingredient
-  shoppingList.forEach((item) => {
+  // Iterate over the sorted ingredients to create the final list
+  sortedIngredients.forEach(([name, quantities]) => {
     const li = document.createElement("li");
-    li.textContent = `${item.name}: ${item.quantityValue} ${item.quantityMetric}`;
+    const quantityStrings = Object.entries(quantities).map(
+      ([metric, value]) => `${value} ${metric}`
+    );
+    li.textContent = `${name}: ${quantityStrings.join(", ")}`;
     ul.appendChild(li);
   });
 
@@ -31,10 +58,13 @@ function updateShoppingList() {
   copyButton.onclick = () => {
     // Create a temporary textarea to hold the list text
     const tempTextarea = document.createElement("textarea");
-    tempTextarea.value = shoppingList
-      .map(
-        (item) => `${item.name}: ${item.quantityValue} ${item.quantityMetric}`
-      )
+    tempTextarea.value = sortedIngredients
+      .map(([name, quantities]) => {
+        const quantityStrings = Object.entries(quantities).map(
+          ([metric, value]) => `${value} ${metric}`
+        );
+        return `${name}: ${quantityStrings.join(", ")}`;
+      })
       .join("\n");
     document.body.appendChild(tempTextarea);
     tempTextarea.select();

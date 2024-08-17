@@ -31,13 +31,13 @@
           "quantityValue": 400
         },
         {
-          "name": "Căței de usturoi, zdrobiți",
-          "quantityMetric": "bucăți",
+          "name": "Usturoi",
+          "quantityMetric": "căței",
           "quantityValue": 6
         },
         {
           "name": "Tulpini de busuioc (opțional)",
-          "quantityMetric": "bucăți",
+          "quantityMetric": "buc",
           "quantityValue": 4
         },
         {
@@ -99,12 +99,12 @@
         },
         {
           "name": "Ceapă galbenă/brună",
-          "quantityMetric": "bucăți",
+          "quantityMetric": "buc",
           "quantityValue": 3
         },
         {
           "name": "Tulpini de țelină",
-          "quantityMetric": "bucăți",
+          "quantityMetric": "buc",
           "quantityValue": 2
         },
         {
@@ -113,8 +113,8 @@
           "quantityValue": 250
         },
         {
-          "name": "Căței de usturoi",
-          "quantityMetric": "bucăți",
+          "name": "Usturoi",
+          "quantityMetric": "căței",
           "quantityValue": 5
         },
         {
@@ -187,12 +187,12 @@
         {
           "name": "Sare",
           "quantityMetric": "după gust",
-          "quantityValue": null
+          "quantityValue": 0
         },
         {
           "name": "Piper alb măcinat",
           "quantityMetric": "după gust",
-          "quantityValue": null
+          "quantityValue": 0
         },
         {
           "name": "Supă de pui cu conținut scăzut de sodiu",
@@ -206,7 +206,7 @@
         },
         {
           "name": "Baby bok choy",
-          "quantityMetric": "bucăți",
+          "quantityMetric": "buc",
           "quantityValue": 3
         },
         {
@@ -253,12 +253,12 @@
       "ingredients": [
         {
           "name": "Roșii mari",
-          "quantityMetric": "bucăți",
+          "quantityMetric": "buc",
           "quantityValue": 2
         },
         {
           "name": "Ceapă roșie",
-          "quantityMetric": "bucată",
+          "quantityMetric": "buc",
           "quantityValue": 1
         },
         {
@@ -273,7 +273,7 @@
         },
         {
           "name": "Lămâi verzi",
-          "quantityMetric": "bucăți",
+          "quantityMetric": "buc",
           "quantityValue": 2
         },
         {
@@ -293,12 +293,12 @@
         },
         {
           "name": "Conopidă mare",
-          "quantityMetric": "bucată",
+          "quantityMetric": "buc",
           "quantityValue": 1
         },
         {
           "name": "Piept de pui mic",
-          "quantityMetric": "bucăți",
+          "quantityMetric": "buc",
           "quantityValue": 5
         },
         {
@@ -324,12 +324,12 @@
         {
           "name": "Sare",
           "quantityMetric": "după gust",
-          "quantityValue": null
+          "quantityValue": 0
         },
         {
           "name": "Piper",
           "quantityMetric": "după gust",
-          "quantityValue": null
+          "quantityValue": 0
         }
       ]
     },
@@ -340,7 +340,7 @@
       "ingredients": [
         {
           "name": "Ceapă galbenă sau brună",
-          "quantityMetric": "bucată",
+          "quantityMetric": "buc",
           "quantityValue": 1
         },
         {
@@ -411,12 +411,12 @@
         {
           "name": "Sare",
           "quantityMetric": "după gust",
-          "quantityValue": null
+          "quantityValue": 0
         },
         {
           "name": "Piper",
           "quantityMetric": "după gust",
-          "quantityValue": null
+          "quantityValue": 0
         }
       ]
     },
@@ -477,17 +477,17 @@
         },
         {
           "name": "Ardei gras verde",
-          "quantityMetric": "bucată",
+          "quantityMetric": "buc",
           "quantityValue": 1
         },
         {
           "name": "Ardei gras roșu",
-          "quantityMetric": "bucată",
+          "quantityMetric": "buc",
           "quantityValue": 1
         },
         {
           "name": "Ardei iute roșu lung",
-          "quantityMetric": "bucăți",
+          "quantityMetric": "buc",
           "quantityValue": 2
         },
         {
@@ -518,12 +518,12 @@
         {
           "name": "Sare",
           "quantityMetric": "după gust",
-          "quantityValue": null
+          "quantityValue": 0
         },
         {
           "name": "Piper",
           "quantityMetric": "după gust",
-          "quantityValue": null
+          "quantityValue": 0
         }
       ]
     },
@@ -539,7 +539,7 @@
         },
         {
           "name": "Morcovi medii-mari",
-          "quantityMetric": "bucăți",
+          "quantityMetric": "buc",
           "quantityValue": 2
         },
         {
@@ -549,7 +549,7 @@
         },
         {
           "name": "Ardei gras (orice culoare)",
-          "quantityMetric": "bucăți",
+          "quantityMetric": "buc",
           "quantityValue": 2
         },
         {
@@ -615,12 +615,12 @@
         {
           "name": "Sare",
           "quantityMetric": "după gust",
-          "quantityValue": null
+          "quantityValue": 0
         },
         {
           "name": "Piper",
           "quantityMetric": "după gust",
-          "quantityValue": null
+          "quantityValue": 0
         }
       ]
     },
@@ -657,7 +657,7 @@
         {
           "name": "Piper alb măcinat",
           "quantityMetric": "după gust",
-          "quantityValue": null
+          "quantityValue": 0
         },
         {
           "name": "Fileuri de somon",
@@ -671,7 +671,7 @@
         },
         {
           "name": "Morcovi medii-mari",
-          "quantityMetric": "bucăți",
+          "quantityMetric": "buc",
           "quantityValue": 2
         },
         {
@@ -702,12 +702,12 @@
         {
           "name": "Sare de mare",
           "quantityMetric": "după gust",
-          "quantityValue": null
+          "quantityValue": 0
         },
         {
           "name": "Piper",
           "quantityMetric": "după gust",
-          "quantityValue": null
+          "quantityValue": 0
         }
       ]
     }

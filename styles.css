@@ -19,6 +19,11 @@ body {
   border-radius: 5px;
 }
 
+.recipe-checkbox {
+  width: 30px;
+  height: 30px;
+}
+
 .recipe-content {
   display: none;
   padding-top: 10px;

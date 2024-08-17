@@ -109,119 +109,121 @@ fetch("recipes.json")
   .then((response) => response.json())
   .then((data) => {
     const recipesContainer = document.getElementById("recipes-container");
-    data.recipes.forEach((recipe, recipeIndex) => {
-      const recipeDiv = document.createElement("div");
-      recipeDiv.className = "recipe";
+    data.recipes
+      .sort((a, b) => a.name.localeCompare(b.name))
+      .forEach((recipe, recipeIndex) => {
+        const recipeDiv = document.createElement("div");
+        recipeDiv.className = "recipe";
 
-      const recipeHeader = document.createElement("div");
-      recipeHeader.className = "recipe-header";
+        const recipeHeader = document.createElement("div");
+        recipeHeader.className = "recipe-header";
 
-      // Create the checkbox for adding to shopping list
-      const checkbox = document.createElement("input");
-      checkbox.type = "checkbox";
-      checkbox.className = "recipe-checkbox print-hide";
-      checkbox.onclick = (e) => {
-        e.stopPropagation(); // Prevent expanding the recipe when clicking the checkbox
-        if (checkbox.checked) {
-          // Add ingredients to the shopping list
-          recipe.ingredients.forEach((ingredient) => {
-            shoppingList.push({ ...ingredient });
-          });
-        } else {
-          // Remove ingredients from the shopping list
-          recipe.ingredients.forEach((ingredient) => {
-            shoppingList = shoppingList.filter(
-              (item) =>
-                item.name !== ingredient.name ||
-                item.quantityValue !== ingredient.quantityValue
-            );
-          });
-        }
-        updateShoppingList();
-      };
+        // Create the checkbox for adding to shopping list
+        const checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+        checkbox.className = "recipe-checkbox print-hide";
+        checkbox.onclick = (e) => {
+          e.stopPropagation(); // Prevent expanding the recipe when clicking the checkbox
+          if (checkbox.checked) {
+            // Add ingredients to the shopping list
+            recipe.ingredients.forEach((ingredient) => {
+              shoppingList.push({ ...ingredient });
+            });
+          } else {
+            // Remove ingredients from the shopping list
+            recipe.ingredients.forEach((ingredient) => {
+              shoppingList = shoppingList.filter(
+                (item) =>
+                  item.name !== ingredient.name ||
+                  item.quantityValue !== ingredient.quantityValue
+              );
+            });
+          }
+          updateShoppingList();
+        };
 
-      const recipeName = document.createElement("h2");
-      const recipeNameIndex = document.createElement("span");
-      const recipeNameContent = document.createElement("span");
-      recipeNameIndex.textContent = `${recipeIndex + 1}. `;
-      recipeNameIndex.className = "recipe-name-index print-hide";
-      recipeNameContent.textContent = recipe.name;
-      recipeName.appendChild(recipeNameIndex);
-      recipeName.appendChild(recipeNameContent);
+        const recipeName = document.createElement("h2");
+        const recipeNameIndex = document.createElement("span");
+        const recipeNameContent = document.createElement("span");
+        recipeNameIndex.textContent = `${recipeIndex + 1}. `;
+        recipeNameIndex.className = "recipe-name-index print-hide";
+        recipeNameContent.textContent = recipe.name;
+        recipeName.appendChild(recipeNameIndex);
+        recipeName.appendChild(recipeNameContent);
 
-      recipeHeader.appendChild(recipeName);
-      recipeHeader.appendChild(checkbox);
+        recipeHeader.appendChild(recipeName);
+        recipeHeader.appendChild(checkbox);
 
-      recipeDiv.appendChild(recipeHeader);
+        recipeDiv.appendChild(recipeHeader);
 
-      const recipeContent = document.createElement("div");
-      recipeContent.className = "recipe-content";
+        const recipeContent = document.createElement("div");
+        recipeContent.className = "recipe-content";
 
-      const printButton = document.createElement("button");
-      printButton.className = "print-button print-hide";
-      printButton.textContent = "Printează rețeta";
-      printButton.onclick = () => printRecipe(recipeDiv);
+        const printButton = document.createElement("button");
+        printButton.className = "print-button print-hide";
+        printButton.textContent = "Printează rețeta";
+        printButton.onclick = () => printRecipe(recipeDiv);
 
-      recipeContent.appendChild(printButton);
+        recipeContent.appendChild(printButton);
 
-      const a = document.createElement("a");
-      a.href = recipe.videoLink;
-      a.target = "_blank";
-      a.textContent = "Vezi pe Youtube";
-      a.className = "video-link print-hide";
-      recipeContent.appendChild(a);
+        const a = document.createElement("a");
+        a.href = recipe.videoLink;
+        a.target = "_blank";
+        a.textContent = "Vezi pe Youtube";
+        a.className = "video-link print-hide";
+        recipeContent.appendChild(a);
 
-      const ingredientsTitle = document.createElement("h3");
-      ingredientsTitle.textContent = "Ingrediente";
-      recipeContent.appendChild(ingredientsTitle);
+        const ingredientsTitle = document.createElement("h3");
+        ingredientsTitle.textContent = "Ingrediente";
+        recipeContent.appendChild(ingredientsTitle);
 
-      const ingredientsTable = document.createElement("table");
-      const tableHeader = document.createElement("tr");
-      const headerName = document.createElement("th");
-      headerName.textContent = "Nume";
-      const headerQuantity = document.createElement("th");
-      headerQuantity.textContent = "Cantitate";
-      tableHeader.appendChild(headerName);
-      tableHeader.appendChild(headerQuantity);
-      ingredientsTable.appendChild(tableHeader);
+        const ingredientsTable = document.createElement("table");
+        const tableHeader = document.createElement("tr");
+        const headerName = document.createElement("th");
+        headerName.textContent = "Nume";
+        const headerQuantity = document.createElement("th");
+        headerQuantity.textContent = "Cantitate";
+        tableHeader.appendChild(headerName);
+        tableHeader.appendChild(headerQuantity);
+        ingredientsTable.appendChild(tableHeader);
 
-      recipe.ingredients.forEach((ingredient) => {
-        const ingredientRow = document.createElement("tr");
-        const ingredientName = document.createElement("td");
-        ingredientName.textContent = ingredient.name;
-        const ingredientQuantity = document.createElement("td");
-        ingredientQuantity.textContent = `${ingredient.quantityValue} ${ingredient.quantityMetric}`;
-        ingredientRow.appendChild(ingredientName);
-        ingredientRow.appendChild(ingredientQuantity);
-        ingredientsTable.appendChild(ingredientRow);
+        recipe.ingredients.forEach((ingredient) => {
+          const ingredientRow = document.createElement("tr");
+          const ingredientName = document.createElement("td");
+          ingredientName.textContent = ingredient.name;
+          const ingredientQuantity = document.createElement("td");
+          ingredientQuantity.textContent = `${ingredient.quantityValue} ${ingredient.quantityMetric}`;
+          ingredientRow.appendChild(ingredientName);
+          ingredientRow.appendChild(ingredientQuantity);
+          ingredientsTable.appendChild(ingredientRow);
+        });
+        recipeContent.appendChild(ingredientsTable);
+
+        const instructionsTitle = document.createElement("h3");
+        instructionsTitle.textContent = "Instrucțiuni";
+        recipeContent.appendChild(instructionsTitle);
+
+        const recipeInstructions = document.createElement("p");
+        recipeInstructions.className = "instructions";
+        recipeInstructions.textContent = recipe.instructions;
+        recipeContent.appendChild(recipeInstructions);
+
+        recipeDiv.appendChild(recipeContent);
+
+        // Toggle the visibility of the recipe content
+        recipeHeader.onclick = () => {
+          if (
+            recipeContent.style.display === "none" ||
+            recipeContent.style.display === ""
+          ) {
+            recipeContent.style.display = "block";
+          } else {
+            recipeContent.style.display = "none";
+          }
+        };
+
+        recipesContainer.appendChild(recipeDiv);
       });
-      recipeContent.appendChild(ingredientsTable);
-
-      const instructionsTitle = document.createElement("h3");
-      instructionsTitle.textContent = "Instrucțiuni";
-      recipeContent.appendChild(instructionsTitle);
-
-      const recipeInstructions = document.createElement("p");
-      recipeInstructions.className = "instructions";
-      recipeInstructions.textContent = recipe.instructions;
-      recipeContent.appendChild(recipeInstructions);
-
-      recipeDiv.appendChild(recipeContent);
-
-      // Toggle the visibility of the recipe content
-      recipeHeader.onclick = () => {
-        if (
-          recipeContent.style.display === "none" ||
-          recipeContent.style.display === ""
-        ) {
-          recipeContent.style.display = "block";
-        } else {
-          recipeContent.style.display = "none";
-        }
-      };
-
-      recipesContainer.appendChild(recipeDiv);
-    });
   });
 
 function printRecipe(recipeDiv) {

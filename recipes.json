@@ -11,12 +11,12 @@
           "quantityValue": 200
         },
         {
-          "name": "Pulpe de pui, dezosate și fără piele",
-          "quantityMetric": "kg",
-          "quantityValue": 1
+          "name": "Pulpe de pui dezosate",
+          "quantityMetric": "g",
+          "quantityValue": 1000
         },
         {
-          "name": "Ulei de măsline extra virgin",
+          "name": "Ulei de măsline",
           "quantityMetric": "linguri",
           "quantityValue": 1
         },
@@ -26,7 +26,7 @@
           "quantityValue": 400
         },
         {
-          "name": "Roșii Roma sau Gourmet, tocate",
+          "name": "Roșii",
           "quantityMetric": "g",
           "quantityValue": 400
         },
@@ -36,12 +36,12 @@
           "quantityValue": 6
         },
         {
-          "name": "Tulpini de busuioc (opțional)",
+          "name": "Tulpini de busuioc",
           "quantityMetric": "buc",
           "quantityValue": 4
         },
         {
-          "name": "Cimbru (opțional)",
+          "name": "Cimbru",
           "quantityMetric": "g",
           "quantityValue": 5
         },
@@ -56,22 +56,22 @@
           "quantityValue": 250
         },
         {
-          "name": "Zahăr, după gust",
+          "name": "Zahăr",
           "quantityMetric": "după gust",
           "quantityValue": 0
         },
         {
-          "name": "Condimente, după gust",
+          "name": "Condimente",
           "quantityMetric": "după gust",
           "quantityValue": 0
         },
         {
-          "name": "Frunze de busuioc, pentru garnisire",
+          "name": "Frunze de busuioc",
           "quantityMetric": "după gust",
           "quantityValue": 0
         },
         {
-          "name": "Pâine prăjită, pentru servire",
+          "name": "Pâine prăjită",
           "quantityMetric": "după gust",
           "quantityValue": 0
         }
@@ -84,11 +84,11 @@
       "ingredients": [
         {
           "name": "Carne de vită (Bolar Blade sau Chuck)",
-          "quantityMetric": "kg",
-          "quantityValue": 1
+          "quantityMetric": "g",
+          "quantityValue": 1000
         },
         {
-          "name": "Făină simplă",
+          "name": "Făină",
           "quantityMetric": "g",
           "quantityValue": 25
         },
@@ -98,7 +98,7 @@
           "quantityValue": 60
         },
         {
-          "name": "Ceapă galbenă/brună",
+          "name": "Ceapă",
           "quantityMetric": "buc",
           "quantityValue": 3
         },
@@ -133,14 +133,14 @@
           "quantityValue": 10
         },
         {
-          "name": "Morcovi tineri",
+          "name": "Morcovi",
           "quantityMetric": "legătură",
           "quantityValue": 1
         },
         {
           "name": "Cartofi cu amidon ridicat",
-          "quantityMetric": "kg",
-          "quantityValue": 1
+          "quantityMetric": "g",
+          "quantityValue": 1000
         },
         {
           "name": "Unt nesărat",
@@ -170,9 +170,9 @@
       "instructions": "1. Adăugați pulpele de pui într-un bol mare de amestecat. Adăugați patru căței de usturoi zdrobiți, 1 linguriță (2,5 g) de pudră de ceapă, sare și piper alb măcinat după gust. Amestecați bine și lăsați să se marineze până la 48 de ore sau folosiți imediat. \n2. Pentru cuscus: adăugați 1,5 căni (320 ml) de supă de pui cu conținut scăzut de sodiu într-o cratiță. Adăugați doi căței de usturoi zdrobiți și aduceți la fierbere. Adăugați 1,5 căni (280 g) de cuscus, amestecați și opriți focul. Acoperiți și lăsați să stea 10 minute. \n3. Încălziți un wok la foc mare, adăugați 1 lingură (20 ml) de ulei de arahide și lăsați să înceapă să fumege. Adăugați baby bok choy și pak choy, tăiate și spălate, asezonați cu sare și piper alb măcinat. Soteați 4-5 minute până când frunzele se ofilesc și tulpinile încep să se rumenească. Adăugați jumătate din ceapa verde și mai gătiți 1 minut. \n4. Pentru sos: într-un bol, combinați 70 g de miere, 50 g de sos sriracha, 30 ml de oțet de mere și 10 ml de ulei de susan. Asezonați cu piper alb măcinat și amestecați bine. \n5. Într-o tigaie mare, încălziți 1 lingură de ulei de arahide la foc mediu-mare. Adăugați puiul și întindeți-l uniform. Gătiți 2 minute pentru a forma o crustă, apoi amestecați și gătiți 8 minute până când puiul este bine gătit. Adăugați sosul de miere și sriracha, amestecați bine și gătiți 2 minute până când sosul se îngroașă. \n6. Într-un bol mare, amestecați cuscusul cu ceapa verde rămasă. \n7. Porționați puiul, cuscusul și legumele soteate în containere de 750 ml. Garnisiți cu semințe de susan și ceapă verde. Păstrați la frigider până la 3-4 zile sau congelați până la 4 luni.",
       "ingredients": [
         {
-          "name": "Pulpe de pui fără os și fără piele",
-          "quantityMetric": "kg",
-          "quantityValue": 1
+          "name": "Pulpe de pui dezosate",
+          "quantityMetric": "g",
+          "quantityValue": 1000
         },
         {
           "name": "Usturoi",
@@ -252,7 +252,7 @@
       "instructions": "1. Pregătiți salsa de porumb: Tăiați în cuburi două roșii mari și o ceapă roșie. Tăiați mărunt 10 g de coriandru. Scurgeți o conservă de boabe de porumb. Puneți o tigaie mare la foc mediu-mare, adăugați 2 lingurițe de ulei de măsline și boabele de porumb scurse, presărați un praf de sare și prăjiți timp de 2-3 minute până când boabele se caramelizează ușor. Adăugați roșiile, ceapa, coriandrul și sucul de la două lămâi verzi. Amestecați bine și ajustați aciditatea și sarea după gust.\n2. Pregătiți fasolea neagră: Puneți o tigaie mare la foc mediu-mare, adăugați 2 lingurițe de ulei de măsline, o conservă de fasole neagră scursă, 1 linguriță de chimen măcinat, 0,5 linguriță de pudră de chili și un praf de sare. Prăjiți timp de 3-4 minute, apoi adăugați 10 g de coriandru tocat și gătiți încă 30 de secunde. Luați de pe foc.\n3. Pregătiți orezul de conopidă: Tăiați o conopidă mare în bucăți mici, inclusiv tulpina. Puneți bucățile într-un blender și mixați până obțineți o textură similară cu cea a orezului. Puneți o tigaie mare la foc mediu-mare, adăugați 1 lingură de ulei de măsline și, în loturi, prăjiți orezul de conopidă timp de 4 minute, asezonând cu sare și piper alb măcinat sau piper negru măcinat după gust.\n4. Pregătiți puiul: Puneți într-un bol 5 piepturi de pui mici, adăugați 1 lingură de ulei de măsline, 1 linguriță de chimen măcinat, 1 linguriță de paprika afumată, 1 linguriță de pudră de usturoi, 1 linguriță de pudră de ceapă, sare și piper după gust. Amestecați bine. Puneți o tigaie mare la foc mediu-mare, adăugați 1 lingură de ulei de măsline și prăjiți piepturile de pui câte 4 minute pe fiecare parte până se rumenesc. Transferați-le în cuptorul preîncălzit la 200°C și coaceți timp de 14-15 minute. Lăsați puiul să se odihnească 5 minute, apoi tăiați-l în felii.\n5. Asamblați bolurile: Împărțiți orezul de conopidă, salsa de porumb, fasolea neagră și feliile de pui în 5 boluri. Garnisiți cu ceapă verde, smântână și maioneză Sriracha după preferință. Bolurile se pot păstra în frigider până la 3 zile sau în congelator până la 4 luni. Reîncălziți în cuptorul cu microunde sau într-o tigaie înainte de a consuma.",
       "ingredients": [
         {
-          "name": "Roșii mari",
+          "name": "Roșii",
           "quantityMetric": "buc",
           "quantityValue": 2
         },
@@ -297,7 +297,7 @@
           "quantityValue": 1
         },
         {
-          "name": "Piept de pui mic",
+          "name": "Piept de pui",
           "quantityMetric": "buc",
           "quantityValue": 5
         },
@@ -339,7 +339,7 @@
       "instructions": "1. Feliați o ceapă galbenă sau brună, îndepărtați capetele și cojile, apoi tăiați în bucăți egale. \n2. Curățați 20 g de ghimbir folosind o lingură și tăiați-l în fâșii subțiri, apoi tăiați în bețișoare mici. \n3. Zdrobiți și tocați mărunt patru căței de usturoi. \n4. Separați tulpina verde de rădăcina albă a patru cepe verzi. Tăiați rădăcina albă în cercuri subțiri și tulpina verde pe diagonală pentru garnitură. \n5. Tăiați 600 g de file de vită în fâșii subțiri. Adăugați 30 ml de sos de soia cu conținut scăzut de sodiu, 30 ml de vin Shaoxing, 5 g de praf de copt și 10 g de amidon de porumb, apoi amestecați bine și lăsați deoparte. \n6. Pentru sos: combinați 120 ml de sos de soia cu conținut scăzut de sodiu, 120 ml de supă de pui, 20 g de zahăr brun, 40 ml de vin Shaoxing și 60 g de sos de stridii într-un bol și amestecați bine. \n7. Puneți o tigaie mare sau un wok la foc mediu-mare, adăugați 1 lingură de ulei de arahide și ceapa tăiată, și prăjiți timp de 4 minute până când devine aurie. \n8. Adăugați usturoiul tocat și ghimbirul, și prăjiți pentru încă un minut. \n9. Adăugați carnea de vită marinată și prăjiți timp de 2 minute, amestecând constant. \n10. Adăugați 600 g de tăiței Hokkien pre-gătiți și sosul pregătit. Amestecați bine și gătiți timp de 2 minute până când sosul se îngroașă. \n11. Adăugați partea albă a cepei verzi, amestecați și îndepărtați de pe foc. \n12. Porționați amestecul în 5 recipiente de 750 ml. Garnisiți cu partea verde a cepei verzi, chili sau semințe de susan, dacă doriți. \n13. Păstrați la frigider până la 4 zile sau congelați până la 3 luni. Reîncălziți în cuptorul cu microunde sau într-o tigaie cu puțin supă de pui și sos de soia pentru a rehidrata mâncarea.",
       "ingredients": [
         {
-          "name": "Ceapă galbenă sau brună",
+          "name": "Ceapă",
           "quantityMetric": "buc",
           "quantityValue": 1
         },
@@ -461,7 +461,7 @@
           "quantityValue": 2
         },
         {
-          "name": "Zahăr granulat",
+          "name": "Zahăr",
           "quantityMetric": "g",
           "quantityValue": 9
         },
@@ -471,7 +471,7 @@
           "quantityValue": 12
         },
         {
-          "name": "Pulpe de pui fără os și piele",
+          "name": "Pulpe de pui dezosate",
           "quantityMetric": "g",
           "quantityValue": 1200
         },
@@ -486,7 +486,7 @@
           "quantityValue": 1
         },
         {
-          "name": "Ardei iute roșu lung",
+          "name": "Ardei iute",
           "quantityMetric": "buc",
           "quantityValue": 2
         },
@@ -534,26 +534,26 @@
       "ingredients": [
         {
           "name": "Sparanghel",
-          "quantityMetric": "mănunchi",
+          "quantityMetric": "leg",
           "quantityValue": 1
         },
         {
-          "name": "Morcovi medii-mari",
+          "name": "Morcovi",
           "quantityMetric": "buc",
           "quantityValue": 2
         },
         {
           "name": "Broccolini",
-          "quantityMetric": "mănunchi",
+          "quantityMetric": "leg",
           "quantityValue": 1
         },
         {
-          "name": "Ardei gras (orice culoare)",
+          "name": "Ardei gras",
           "quantityMetric": "buc",
           "quantityValue": 2
         },
         {
-          "name": "Pulpe de pui fără os și piele",
+          "name": "Pulpe de pui dezosate",
           "quantityMetric": "g",
           "quantityValue": 1000
         },
@@ -585,12 +585,7 @@
         {
           "name": "Sos de soia",
           "quantityMetric": "ml",
-          "quantityValue": 60
-        },
-        {
-          "name": "Sos de soia închis",
-          "quantityMetric": "ml",
-          "quantityValue": 40
+          "quantityValue": 100
         },
         {
           "name": "Mirin",
@@ -670,7 +665,7 @@
           "quantityValue": 2
         },
         {
-          "name": "Morcovi medii-mari",
+          "name": "Morcovi",
           "quantityMetric": "buc",
           "quantityValue": 2
         },
@@ -717,9 +712,9 @@
       "instructions": "1. Tăiați aripioarele de pui în două, separând partea plată de ciocănel. Uscați bine aripioarele cu prosoape de hârtie. Așezați-le pe un grătar și lăsați-le la frigider peste noapte sau pentru minimum 6 ore.\n2. Pentru sosul de brânză cu mucegai, combinați 110g de maioneză, 60g de smântână, 30ml de lapte bătut, 50g de brânză cu mucegai mărunțită, 1 cățel de usturoi zdrobit și 0,5g de pudră de muștar galben. Amestecați bine și ajustați condimentele după gust. Lăsați la frigider până la servire.\n3. Într-o tigaie adâncă, încălziți ulei de floarea-soarelui sau vegetal până la 200°C. Prăjiți aripioarele de pui în loturi timp de 10-12 minute până devin aurii și crocante. Scoateți-le pe un grătar curat și presărați sare imediat.\n4. Pentru sosul Buffalo, topiți 100g de unt nesărat la foc mediu. Adăugați 300ml de sos iute (Frank's Hot Sauce sau alt sos preferat), 2 căței de usturoi zdrobiți și 20g de miere. Amestecați bine până când totul este omogen și lucios.\n5. Amestecați aripioarele prăjite în sosul Buffalo, asigurându-vă că sunt bine acoperite. Serviți aripioarele calde cu bastonașe de morcov și țelină, alături de sosul de brânză cu mucegai.",
       "ingredients": [
         {
-          "name": "Aripioare de pui (separate în plată și ciocănel)",
-          "quantityMetric": "kg",
-          "quantityValue": 1.6
+          "name": "Aripioare de pui",
+          "quantityMetric": "g",
+          "quantityValue": 1600
         },
         {
           "name": "Sare",
@@ -727,7 +722,7 @@
           "quantityValue": 0
         },
         {
-          "name": "Ulei de floarea-soarelui sau vegetal",
+          "name": "Ulei",
           "quantityMetric": "pentru prăjit",
           "quantityValue": 0
         },
@@ -737,12 +732,12 @@
           "quantityValue": 100
         },
         {
-          "name": "Sos iute (Frank's Hot Sauce)",
+          "name": "Frank's Hot Sauce",
           "quantityMetric": "ml",
           "quantityValue": 300
         },
         {
-          "name": "Usturoi (zdrobit)",
+          "name": "Usturoi",
           "quantityMetric": "căței",
           "quantityValue": 2
         },
@@ -767,7 +762,7 @@
           "quantityValue": 30
         },
         {
-          "name": "Brânză cu mucegai (mărunțită)",
+          "name": "Brânză cu mucegai",
           "quantityMetric": "g",
           "quantityValue": 50
         },
@@ -777,12 +772,12 @@
           "quantityValue": 0.5
         },
         {
-          "name": "Morcovi (tăiați în bastonașe)",
+          "name": "Morcovi",
           "quantityMetric": "pentru servire",
           "quantityValue": 0
         },
         {
-          "name": "Țelină (tăiată în bastonașe)",
+          "name": "Țelină",
           "quantityMetric": "pentru servire",
           "quantityValue": 0
         }
@@ -799,22 +794,22 @@
           "quantityValue": 30
         },
         {
-          "name": "Piept de pui (tăiat fâșii)",
-          "quantityMetric": "kg",
-          "quantityValue": 1
+          "name": "Piept de pui",
+          "quantityMetric": "g",
+          "quantityValue": 1000
         },
         {
-          "name": "Ceapă maro (tăiată subțire)",
+          "name": "Ceapă",
           "quantityMetric": "buc",
           "quantityValue": 2
         },
         {
-          "name": "Ardei gras roșu (tăiat subțire)",
+          "name": "Ardei gras roșu",
           "quantityMetric": "buc",
           "quantityValue": 1
         },
         {
-          "name": "Oregano proaspăt (tocat)",
+          "name": "Oregano proaspăt",
           "quantityMetric": "g",
           "quantityValue": 3
         },
@@ -839,7 +834,7 @@
           "quantityValue": 4
         },
         {
-          "name": "Zahăr alb granulat",
+          "name": "Zahăr",
           "quantityMetric": "g",
           "quantityValue": 8
         },
@@ -864,27 +859,27 @@
           "quantityValue": 0.5
         },
         {
-          "name": "Avocado (zdrobiți)",
+          "name": "Avocado",
           "quantityMetric": "buc",
           "quantityValue": 2
         },
         {
-          "name": "Ceapă roșie (tăiată mărunt)",
+          "name": "Ceapă roșie",
           "quantityMetric": "buc",
           "quantityValue": 0.5
         },
         {
-          "name": "Roșii (tăiate cubulețe)",
+          "name": "Roșii",
           "quantityMetric": "buc",
           "quantityValue": 2
         },
         {
-          "name": "Coriandru (tocat)",
+          "name": "Coriandru",
           "quantityMetric": "g",
           "quantityValue": 5
         },
         {
-          "name": "Lămâie (coajă rasă și suc)",
+          "name": "Lămâie",
           "quantityMetric": "buc",
           "quantityValue": 1
         },
@@ -946,12 +941,12 @@
           "quantityValue": 15
         },
         {
-          "name": "Pâine (felii groase)",
-          "quantityMetric": "buc",
+          "name": "Pâine",
+          "quantityMetric": "felii",
           "quantityValue": 2
         },
         {
-          "name": "Avocado (zdrobit)",
+          "name": "Avocado",
           "quantityMetric": "buc",
           "quantityValue": 2
         },
@@ -983,17 +978,17 @@
           "quantityValue": 20
         },
         {
-          "name": "Usturoi (zdrobit)",
+          "name": "Usturoi",
           "quantityMetric": "căței",
           "quantityValue": 5
         },
         {
-          "name": "Roșii mari (cuburi)",
+          "name": "Roșii",
           "quantityMetric": "buc",
           "quantityValue": 4
         },
         {
-          "name": "Ardei grași (cuburi)",
+          "name": "Ardei gras",
           "quantityMetric": "buc",
           "quantityValue": 2
         },
@@ -1023,7 +1018,7 @@
           "quantityValue": 180
         },
         {
-          "name": "Cremă de brânză (scăzută în grăsimi)",
+          "name": "Cremă de brânză",
           "quantityMetric": "g",
           "quantityValue": 240
         },
@@ -1038,7 +1033,7 @@
           "quantityValue": 500
         },
         {
-          "name": "Parmezan (opțional)",
+          "name": "Parmezan",
           "quantityMetric": "g",
           "quantityValue": 50
         }
@@ -1060,17 +1055,17 @@
           "quantityValue": 500
         },
         {
-          "name": "Ceapă galbenă (tocată)",
+          "name": "Ceapă",
           "quantityMetric": "buc",
           "quantityValue": 1
         },
         {
-          "name": "Usturoi (căței zdrobiți)",
+          "name": "Usturoi",
           "quantityMetric": "căței",
           "quantityValue": 4
         },
         {
-          "name": "Roșii uscate la soare (tăiate fâșii)",
+          "name": "Roșii uscate la soare",
           "quantityMetric": "g",
           "quantityValue": 70
         },
@@ -1100,7 +1095,7 @@
           "quantityValue": 180
         },
         {
-          "name": "Paste (penne sau alte tipuri)",
+          "name": "Paste",
           "quantityMetric": "g",
           "quantityValue": 350
         },
@@ -1110,12 +1105,12 @@
           "quantityValue": 180
         },
         {
-          "name": "Busuioc (pentru servire)",
+          "name": "Busuioc",
           "quantityMetric": "pentru servire",
           "quantityValue": 0
         },
         {
-          "name": "Parmezan (pentru servire)",
+          "name": "Parmezan",
           "quantityMetric": "pentru servire",
           "quantityValue": 0
         },
@@ -1137,17 +1132,17 @@
           "quantityValue": 14
         },
         {
-          "name": "Șalotă (tocată fin)",
+          "name": "Șalotă",
           "quantityMetric": "buc",
           "quantityValue": 1
         },
         {
-          "name": "Ardei iute roșu lung (feliat subțire)",
+          "name": "Ardei iute",
           "quantityMetric": "buc",
           "quantityValue": 1
         },
         {
-          "name": "Ouă mari (bătute)",
+          "name": "Ouă",
           "quantityMetric": "buc",
           "quantityValue": 6
         },
@@ -1157,37 +1152,37 @@
           "quantityValue": 40
         },
         {
-          "name": "Pâine de maia sau altă pâine la alegere",
+          "name": "Pâine",
           "quantityMetric": "felii",
           "quantityValue": 0
         },
         {
-          "name": "Unt (pentru a unge pâinea)",
+          "name": "Unt",
           "quantityMetric": "după gust",
           "quantityValue": 0
         },
         {
-          "name": "Pecorino Romano sau Parmezan (ras, pentru servire)",
+          "name": "Parmezan",
           "quantityMetric": "după gust",
           "quantityValue": 0
         },
         {
-          "name": "Șalote prăjite (pentru garnitură)",
+          "name": "Șalote prăjite",
           "quantityMetric": "după gust",
           "quantityValue": 0
         },
         {
-          "name": "Coriandru (pentru garnitură)",
+          "name": "Coriandru",
           "quantityMetric": "după gust",
           "quantityValue": 0
         },
         {
-          "name": "Sriracha (pentru garnitură)",
+          "name": "Sriracha",
           "quantityMetric": "după gust",
           "quantityValue": 0
         },
         {
-          "name": "Piper negru proaspăt măcinat (pentru servire)",
+          "name": "Piper negru măcinat",
           "quantityMetric": "după gust",
           "quantityValue": 0
         }
@@ -1199,72 +1194,72 @@
       "instructions": "1. Pentru sosul Hollandaise: Puneți 4 gălbenușuri de ou și 20 ml de oțet alb (sau suc de lămâie) într-un blender și mixați timp de 30 de secunde până devin pufoase. Adăugați treptat 280 ml de unt clarificat topit, mixând continuu până se formează o emulsie groasă. Condimentați după gust cu sare și piper alb măcinat. Păstrați sosul cald, acoperit cu un prosop.\n2. Pentru ouăle poșate: Aduceți la fierbere o cratiță mare cu apă și adăugați 20 ml de oțet. Odată ce apa clocotește, adăugați ouăle (câte doriți) și gătiți timp de 2 minute și jumătate pentru un gălbenuș moale. Scoateți ouăle și lăsați-le să se scurgă pe un prosop de hârtie.\n3. Pentru ouăle Benedict: Încălziți o tigaie la foc mediu-mare, adăugați 5 ml de ulei și prăjiți 2-4 felii de șuncă sau bacon timp de 1-1,5 minute pe fiecare parte până devin aurii. Prăjiți chiflele englezești tăiate în jumătate și unse cu unt, așezați șunca pe fiecare jumătate, adăugați un ou poșat și acoperiți cu sos Hollandaise. \n4. Pentru ouăle Florentine: În aceeași tigaie, adăugați 10 ml de ulei și 180 g de spanac proaspăt. Sotați timp de 2 minute până când spanacul se ofilește. Condimentați după gust. Prăjiți chiflele englezești, așezați spanacul pe fiecare jumătate, adăugați un ou poșat și acoperiți cu sos Hollandaise.\n5. Pentru ouăle Royale: Prăjiți chiflele englezești tăiate în jumătate și unse cu unt, așezați 4-6 felii de somon afumat pe fiecare jumătate, adăugați un ou poșat și acoperiți cu sos Hollandaise. Garnisiți cu mărar și arpagic după preferință.\n6. Pentru servire: Presărați arpagic tocat, puțină paprica sau piper negru măcinat proaspăt pentru decor. Bucurați-vă de ouăle Benedict, Florentine și Royale cu sosul Hollandaise cremos și delicios.",
       "ingredients": [
         {
-          "name": "Gălbenușuri de ou (pentru sos Hollandaise)",
+          "name": "Gălbenușuri de ou",
           "quantityMetric": "buc",
           "quantityValue": 4
         },
         {
-          "name": "Oțet alb sau suc de lămâie (pentru sos Hollandaise)",
+          "name": "Oțet alb sau suc de lămâie",
           "quantityMetric": "ml",
           "quantityValue": 20
         },
         {
-          "name": "Unt clarificat (pentru sos Hollandaise)",
+          "name": "Unt",
           "quantityMetric": "ml",
           "quantityValue": 280
         },
         {
-          "name": "Ouă (pentru poșare)",
+          "name": "Ouă",
           "quantityMetric": "buc",
           "quantityValue": 6
         },
         {
-          "name": "Oțet alb (pentru poșarea ouălor)",
+          "name": "Oțet alb",
           "quantityMetric": "ml",
           "quantityValue": 20
         },
         {
-          "name": "Chifle englezești (sliced & toasted)",
+          "name": "Chifle englezești",
           "quantityMetric": "buc",
           "quantityValue": 3
         },
         {
-          "name": "Ulei de floarea-soarelui sau de măsline (pentru prăjit)",
+          "name": "Ulei de floarea-soarelui sau de măsline",
           "quantityMetric": "ml",
           "quantityValue": 15
         },
         {
-          "name": "Șuncă sau bacon (pentru Benedict)",
+          "name": "Șuncă sau bacon",
           "quantityMetric": "felii",
           "quantityValue": 4
         },
         {
-          "name": "Spanac proaspăt (pentru Florentine)",
+          "name": "Spanac proaspăt",
           "quantityMetric": "g",
           "quantityValue": 180
         },
         {
-          "name": "Somon afumat (pentru Royale)",
+          "name": "Somon afumat",
           "quantityMetric": "felii",
           "quantityValue": 6
         },
         {
-          "name": "Arpagic (pentru garnitură)",
+          "name": "Arpagic",
           "quantityMetric": "după gust",
           "quantityValue": 0
         },
         {
-          "name": "Mărar (pentru garnitură)",
+          "name": "Mărar",
           "quantityMetric": "după gust",
           "quantityValue": 0
         },
         {
-          "name": "Piper alb sau negru măcinat (pentru sos și garnitură)",
+          "name": "Piper negru măcinat",
           "quantityMetric": "după gust",
           "quantityValue": 0
         },
         {
-          "name": "Paprica (pentru garnitură, opțional)",
+          "name": "Paprica",
           "quantityMetric": "după gust",
           "quantityValue": 0
         }
@@ -1291,9 +1286,9 @@
           "quantityValue": 1
         },
         {
-          "name": "Lămâie (suc)",
-          "quantityMetric": "jumătate",
-          "quantityValue": 1
+          "name": "Lămâie",
+          "quantityMetric": "buc",
+          "quantityValue": 0.5
         },
         {
           "name": "Parmezan ras",
@@ -1341,12 +1336,12 @@
           "quantityValue": 2
         },
         {
-          "name": "Mozzarella (felii)",
+          "name": "Mozzarella",
           "quantityMetric": "felii",
           "quantityValue": 5
         },
         {
-          "name": "Roșii (felii)",
+          "name": "Roșii",
           "quantityMetric": "buc",
           "quantityValue": 2
         },
@@ -1378,7 +1373,7 @@
           "quantityValue": 60
         },
         {
-          "name": "Usturoi (tocat mărunt)",
+          "name": "Usturoi",
           "quantityMetric": "căței",
           "quantityValue": 6
         },
@@ -1413,9 +1408,9 @@
           "quantityValue": 8
         },
         {
-          "name": "Ceapă medie (tocată mărunt)",
-          "quantityMetric": "jumătate",
-          "quantityValue": 1
+          "name": "Ceapă",
+          "quantityMetric": "buc",
+          "quantityValue": 0.5
         },
         {
           "name": "Coaja de lămâie",
@@ -1433,7 +1428,7 @@
           "quantityValue": 600
         },
         {
-          "name": "Suc de lămâie (pentru orez)",
+          "name": "Suc de lămâie",
           "quantityMetric": "ml",
           "quantityValue": 45
         },
@@ -1460,9 +1455,9 @@
           "quantityValue": 2
         },
         {
-          "name": "Ceapă albă sau galbenă",
-          "quantityMetric": "bucată (1/4)",
-          "quantityValue": 1
+          "name": "Ceapă",
+          "quantityMetric": "buc",
+          "quantityValue": 0.25
         },
         {
           "name": "Ketchup",
@@ -1470,7 +1465,7 @@
           "quantityValue": 40
         },
         {
-          "name": "Muștar american (galben)",
+          "name": "Muștar american",
           "quantityMetric": "ml",
           "quantityValue": 15
         },
@@ -1491,8 +1486,8 @@
         },
         {
           "name": "Suc de lămâie",
-          "quantityMetric": "bucată (1/4)",
-          "quantityValue": 1
+          "quantityMetric": "buc",
+          "quantityValue": 0.25
         },
         {
           "name": "Carne tocată de vită (80% carne, 20% grăsime)",
@@ -1500,7 +1495,7 @@
           "quantityValue": 1000
         },
         {
-          "name": "Brânză felii (Americană sau altă brânză la alegere)",
+          "name": "Brânză",
           "quantityMetric": "felii",
           "quantityValue": 8
         },
@@ -1515,7 +1510,7 @@
           "quantityValue": 0
         },
         {
-          "name": "Roșii, feliate subțire",
+          "name": "Roșii",
           "quantityMetric": "buc",
           "quantityValue": 2
         },
@@ -1547,7 +1542,7 @@
           "quantityValue": 6
         },
         {
-          "name": "Laptele bătut",
+          "name": "Lapte bătut",
           "quantityMetric": "ml",
           "quantityValue": 250
         },
@@ -1597,7 +1592,7 @@
           "quantityValue": 25
         },
         {
-          "name": "Laptele bătut (pentru ranch)",
+          "name": "Lapte bătut",
           "quantityMetric": "ml",
           "quantityValue": 60
         },
@@ -1672,10 +1667,10 @@
     {
       "name": "Cajun Chicken Wraps",
       "videoLink": "https://youtu.be/fnH10H8h4Mo?si=WGyu0M6LbuLeCfo-",
-      "instructions": "1. Tăiați pieptul de pui în cuburi și puneți-l într-un bol. Adăugați uleiul de măsline și condimentele (pudra de ceapă, pudra de usturoi, paprika afumată, oregano uscat, fulgi de chili - opțional, sare și piper). Amestecați bine pentru a combina.\n2. Într-un bol separat, adăugați toate ingredientele pentru sosul de iaurt tangy (iaurt grecesc natural, sos sriracha, suc de lămâie, cumin măcinat, paprika dulce, coriandru tocat, sare și piper). Amestecați bine și păstrați la frigider până când sunteți gata de servit.\n3. Puneți o tigaie la foc mare, adăugați un strop de ulei de măsline și prăjiți puiul condimentat timp de 8 minute sau până când este gătit complet. Poate fi necesar să faceți acest lucru în mai multe tranșe pentru a evita aglomerarea și aburirea puiului. Alternativ, acest lucru se poate face în cuptor. Consultați notele de mai jos.\n4. Pentru a asambla wrap-urile, încălziți ușor tortillas în tigaie sau în cuptorul cu microunde și întindeți sosul de iaurt pe ele. Adăugați puiul, roșiile, ceapa și salata și acoperiți cu puțin mai mult sos. Înfășurați strâns tortilla, cu partea deschisă în jos pentru a preveni desfacerea.\n5. Tortillas pot fi păstrate proaspete, sau dacă doriți să le prăjiți, faceți acest lucru într-o tigaie la foc mediu-mare cu un strop de ulei de măsline și prăjiți până la culoarea dorită.\n6. Tăiați wrap-ul pe jumătate și folosiți sosul de iaurt rămas ca dip. Savurați.",
+      "instructions": "1. Tăiați carnea de pui în cuburi și puneți-l într-un bol. Adăugați uleiul de măsline și condimentele (pudra de ceapă, pudra de usturoi, paprika afumată, oregano uscat, fulgi de chili - opțional, sare și piper). Amestecați bine pentru a combina.\n2. Într-un bol separat, adăugați toate ingredientele pentru sosul de iaurt tangy (iaurt grecesc natural, sos sriracha, suc de lămâie, cumin măcinat, paprika dulce, coriandru tocat, sare și piper). Amestecați bine și păstrați la frigider până când sunteți gata de servit.\n3. Puneți o tigaie la foc mare, adăugați un strop de ulei de măsline și prăjiți puiul condimentat timp de 8 minute sau până când este gătit complet. Poate fi necesar să faceți acest lucru în mai multe tranșe pentru a evita aglomerarea și aburirea puiului. Alternativ, acest lucru se poate face în cuptor. Consultați notele de mai jos.\n4. Pentru a asambla wrap-urile, încălziți ușor tortillas în tigaie sau în cuptorul cu microunde și întindeți sosul de iaurt pe ele. Adăugați puiul, roșiile, ceapa și salata și acoperiți cu puțin mai mult sos. Înfășurați strâns tortilla, cu partea deschisă în jos pentru a preveni desfacerea.\n5. Tortillas pot fi păstrate proaspete, sau dacă doriți să le prăjiți, faceți acest lucru într-o tigaie la foc mediu-mare cu un strop de ulei de măsline și prăjiți până la culoarea dorită.\n6. Tăiați wrap-ul pe jumătate și folosiți sosul de iaurt rămas ca dip. Savurați.",
       "ingredients": [
         {
-          "name": "Pulpe de pui dezosate și fără piele",
+          "name": "Pulpe de pui dezosate",
           "quantityMetric": "g",
           "quantityValue": 650
         },
@@ -1750,12 +1745,12 @@
           "quantityValue": 6
         },
         {
-          "name": "Roșii truss, tăiate cubulețe",
+          "name": "Roșii",
           "quantityMetric": "buc",
           "quantityValue": 2
         },
         {
-          "name": "Ceapă roșie, tocată",
+          "name": "Ceapă roșie",
           "quantityMetric": "buc",
           "quantityValue": 0.5
         },
@@ -1772,9 +1767,9 @@
       "instructions": "1. Într-un bol, amestecați condimentele pentru fajita și puneți-le deoparte.\n2. Într-un al doilea bol, adăugați fâșiile de piept de pui, oregano și sare. Adăugați jumătate din amestecul de condimente, amestecați și lăsați la marinat între 30 de minute și 24 de ore.\n3. Într-un al treilea bol, adăugați ceapa și ardeii. Adăugați restul de amestec de condimente. Amestecați bine și puneți deoparte.\n4. Puneți o tigaie mare, adâncă, la foc mediu-mare. Adăugați uleiul de măsline și, când este încins, adăugați amestecul de ceapă și ardei. Sotați timp de 5-6 minute, amestecând regulat. Scoateți și puneți deoparte.\n5. Puneți aceeași tigaie înapoi pe foc mediu-mare. Adăugați restul de ulei și prăjiți puiul timp de 4-5 minute sau până când este gătit complet și auriu. Adăugați amestecul de ceapă și ardei în tigaie și gătiți încă un minut. Scoateți de pe foc.\n6. Pentru guacamole, pasați avocado, lăsându-l ușor grosier. Adăugați toate ingredientele pentru guacamole și amestecați bine. Porționați în recipiente mici și stropiți cu ulei de măsline extra virgin.\n7. Aduceți un vas cu apă la fiert. Adăugați orezul brun și fierbeți timp de 30 de minute pentru orezul brun cu bob mediu și lung, și 12 - 14 minute pentru orezul brun basmati. Scurgeți printr-o sită.\n8. Serviți fajitas de pui alături de orezul brun în 5 recipiente de 750 ml. Serviți guacamole separat. Savurați.\n9. Pentru a păstra, puneți în frigider timp de până la 4 zile și în congelator până la 4 luni, ambele păstrate în recipiente etanșe. Păstrați guacamole-ul într-un recipient separat, care va dura până la 4 zile în frigider și șase luni în congelator.\n10. Pentru a reîncălzi, puneți în cuptorul cu microunde și încălziți în reprize până la fierbere completă. Alternativ, poate fi reîncălzit într-o tigaie la foc mediu.",
       "ingredients": [
         {
-          "name": "Piept de pui, tăiat fâșii",
-          "quantityMetric": "kg",
-          "quantityValue": 1
+          "name": "Piept de pui",
+          "quantityMetric": "g",
+          "quantityValue": 1000
         },
         {
           "name": "Ulei de măsline",
@@ -1782,7 +1777,7 @@
           "quantityValue": 20
         },
         {
-          "name": "Ceapă galbenă (mărime medie), tăiată subțire",
+          "name": "Ceapă",
           "quantityMetric": "buc",
           "quantityValue": 2
         },
@@ -1827,17 +1822,17 @@
           "quantityValue": 1
         },
         {
-          "name": "Ceapă roșie, tocată",
+          "name": "Ceapă roșie",
           "quantityMetric": "buc",
           "quantityValue": 0.25
         },
         {
-          "name": "Roșie, tocată",
+          "name": "Roșii",
           "quantityMetric": "buc",
           "quantityValue": 1
         },
         {
-          "name": "Jalapeno, tocat",
+          "name": "Jalapeno",
           "quantityMetric": "buc",
           "quantityValue": 0.5
         },
@@ -1847,7 +1842,7 @@
           "quantityValue": 5
         },
         {
-          "name": "Lime, suc (coajă opțional)",
+          "name": "Lime",
           "quantityMetric": "buc",
           "quantityValue": 1
         },
@@ -1874,7 +1869,7 @@
       "instructions": "1. Într-un bol, bateți împreună 2 ouă și 2 linguri de zahăr granulat.\n2. Adăugați 200 ml de lapte, 1 + ¼ cană de făină universală, 2 lingurițe de praf de copt și 2 lingurițe de praf de vanilie. Bateți până obțineți un aluat neted.\n3. Încălziți o tigaie antiaderentă ușor unsă cu ulei la foc mediu.\n4. Turnați ușor aproximativ 1 lingură de aluat în tigaia fierbinte.\n5. Așteptați până când se formează bule pe suprafață și, odată ce încep să pocnească, întoarceți clătita și gătiți până când ambele părți devin aurii.\n6. Repetați până când tot aluatul este utilizat.\n7. Odată ce ambele părți sunt aurii, transferați clătitele pe o farfurie de servire.\n8. Serviți clătitele cu gemul, mierea, siropul de arțar sau fructele preferate.",
       "ingredients": [
         {
-          "name": "Oua",
+          "name": "Ouă",
           "quantityMetric": "buc",
           "quantityValue": 2
         },
@@ -1904,7 +1899,7 @@
           "quantityValue": 2
         },
         {
-          "name": "Ulei (pentru gătit)",
+          "name": "Ulei",
           "quantityMetric": "după gust",
           "quantityValue": 0
         }
@@ -1917,8 +1912,8 @@
       "ingredients": [
         {
           "name": "Aripioare de pui",
-          "quantityMetric": "kg",
-          "quantityValue": 1.2
+          "quantityMetric": "g",
+          "quantityValue": 1200
         },
         {
           "name": "Ulei de susan",
@@ -1926,7 +1921,7 @@
           "quantityValue": 10
         },
         {
-          "name": "Vin Shaoxing (sau supă de pui)",
+          "name": "Vin Shaoxing",
           "quantityMetric": "ml",
           "quantityValue": 40
         },
@@ -1977,11 +1972,11 @@
         },
         {
           "name": "Ceapă verde",
-          "quantityMetric": "buc",
+          "quantityMetric": "fire",
           "quantityValue": 1
         },
         {
-          "name": "Ardei iute (opțional)",
+          "name": "Ardei iute",
           "quantityMetric": "buc",
           "quantityValue": 1
         },
@@ -2048,12 +2043,12 @@
           "quantityValue": 15
         },
         {
-          "name": "Ouă de la găini crescute liber",
+          "name": "Ouă",
           "quantityMetric": "buc",
           "quantityValue": 4
         },
         {
-          "name": "Ulei de măsline extravirgin (opțional)",
+          "name": "Ulei de măsline",
           "quantityMetric": "ml",
           "quantityValue": 7.5
         },
@@ -2080,7 +2075,7 @@
       "instructions": "1. Într-un bol, adăugați 8 bucăți de pulpă de pui fără os și piele, 2,5 g de paprika dulce, 0,5 g de oregano uscat, 0,5 g de cimbru uscat și 0,5 g de busuioc uscat. Dacă folosiți ardei iute, tăiați 1-2 bucăți în bucăți mici și adăugați-le în bol. Adăugați 10 ml de ulei de măsline, coaja rasă și sucul de la o lămâie, 3 căței de usturoi pasați, un praf mare de sare și piper negru măcinat. Amestecați bine și lăsați la marinat în frigider între 30 de minute și 48 de ore.\n2. Preîncălziți cuptorul la 200°C. Aranjați bucățile de pui pe o tavă tapetată cu hârtie de copt, asigurându-vă că nu se ating. Coaceți timp de 20-25 de minute până când puiul este gătit și are o crustă aurie. Alternativ, puiul poate fi gătit în tigaie sau pe grătar.\n3. Între timp, pregătiți salata de varză. Într-un bol mare, adăugați 100 g de varză albă și 100 g de varză roșie, ambele feliate subțire, 5 g de pătrunjel tocat mărunt, jumătate de ceapă roșie feliată subțire și 2 cepe verzi (opțional) feliate subțire. Amestecați ingredientele pentru dressing: 100 g de iaurt grecesc natural, sucul de la jumătate de lămâie, 50 ml de ulei de macadamia sau ulei de măsline extra virgin și 10 g de miere. Condimentați după gust cu sare și piper, apoi amestecați bine cu legumele. Păstrați salata la frigider până la servire.\n4. După ce puiul este gătit, adăugați câte două bucăți de pui pe fiecare sandviș și acoperiți cu o felie de cheddar. Puneți sandvișurile înapoi în cuptor pentru a topi brânza.\n5. Prăjiți chiflele de burger într-o tigaie cu puțin unt sau ulei până devin aurii și crocante.\n6. Asamblați sandvișurile: puneți salata de varză pe jumătatea inferioară a chiflei, adăugați puiul cu brânză topită și acoperiți cu cealaltă jumătate de chiflă, unsă cu maioneză sau sosul preferat. Apăsați ușor pentru a compacta sandvișul și bucurați-vă de gustul delicios.",
       "ingredients": [
         {
-          "name": "Pulpe de pui dezosate și fără piele",
+          "name": "Pulpe de pui dezosate",
           "quantityMetric": "buc",
           "quantityValue": 8
         },
@@ -2105,7 +2100,7 @@
           "quantityValue": 0.5
         },
         {
-          "name": "Ardei iute roșu",
+          "name": "Ardei iute",
           "quantityMetric": "buc",
           "quantityValue": 2
         },
@@ -2150,8 +2145,8 @@
           "quantityValue": 0.5
         },
         {
-          "name": "Ceapă verde (opțional)",
-          "quantityMetric": "buc",
+          "name": "Ceapă verde",
+          "quantityMetric": "fire",
           "quantityValue": 2
         },
         {
@@ -2227,9 +2222,9 @@
           "quantityValue": 9
         },
         {
-          "name": "Pulpe de pui dezosate și fără piele",
-          "quantityMetric": "kg",
-          "quantityValue": 1
+          "name": "Pulpe de pui dezosate",
+          "quantityMetric": "g",
+          "quantityValue": 1000
         },
         {
           "name": "Ulei de arahide",
@@ -2237,7 +2232,7 @@
           "quantityValue": 30
         },
         {
-          "name": "Ceapă galbenă",
+          "name": "Ceapă",
           "quantityMetric": "buc",
           "quantityValue": 1
         },
@@ -2247,13 +2242,13 @@
           "quantityValue": 2
         },
         {
-          "name": "Ardei roșu (capsicum)",
+          "name": "Ardei roșu",
           "quantityMetric": "buc",
           "quantityValue": 1
         },
         {
-          "name": "Ceapă verde (ceapa verde)",
-          "quantityMetric": "buc",
+          "name": "Ceapă verde",
+          "quantityMetric": "fire",
           "quantityValue": 3
         },
         {
@@ -2334,17 +2329,17 @@
           "quantityValue": 50
         },
         {
-          "name": "Piept de pui sau pulpe de pui",
-          "quantityMetric": "kg",
-          "quantityValue": 1.4
+          "name": "Piept de pui",
+          "quantityMetric": "g",
+          "quantityValue": 1400
         },
         {
-          "name": "Ardei grași (orice culoare)",
+          "name": "Ardei gras",
           "quantityMetric": "buc",
           "quantityValue": 3
         },
         {
-          "name": "Ceapă galbenă",
+          "name": "Ceapă",
           "quantityMetric": "buc",
           "quantityValue": 1
         },

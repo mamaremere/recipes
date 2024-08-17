@@ -7,27 +7,27 @@
       "ingredients": [
         {
           "name": "Chorizo",
-          "quantityMetric": "gram",
+          "quantityMetric": "g",
           "quantityValue": 200
         },
         {
           "name": "Pulpe de pui, dezosate și fără piele",
-          "quantityMetric": "kilogram",
+          "quantityMetric": "kg",
           "quantityValue": 1
         },
         {
           "name": "Ulei de măsline extra virgin",
-          "quantityMetric": "lingură",
+          "quantityMetric": "linguri",
           "quantityValue": 1
         },
         {
           "name": "Roșii cherry",
-          "quantityMetric": "gram",
+          "quantityMetric": "g",
           "quantityValue": 400
         },
         {
           "name": "Roșii Roma sau Gourmet, tocate",
-          "quantityMetric": "gram",
+          "quantityMetric": "g",
           "quantityValue": 400
         },
         {
@@ -42,17 +42,17 @@
         },
         {
           "name": "Cimbru (opțional)",
-          "quantityMetric": "gram",
+          "quantityMetric": "g",
           "quantityValue": 5
         },
         {
           "name": "Oțet balsamic sau oțet de mere",
-          "quantityMetric": "lingură",
+          "quantityMetric": "linguri",
           "quantityValue": 1
         },
         {
           "name": "Supă de pui sau de legume",
-          "quantityMetric": "mililitru",
+          "quantityMetric": "ml",
           "quantityValue": 250
         },
         {
@@ -171,7 +171,7 @@
       "ingredients": [
         {
           "name": "Pulpe de pui fără os și fără piele",
-          "quantityMetric": "kilograme",
+          "quantityMetric": "kg",
           "quantityValue": 1
         },
         {
@@ -181,7 +181,7 @@
         },
         {
           "name": "Pudră de ceapă",
-          "quantityMetric": "grame",
+          "quantityMetric": "g",
           "quantityValue": 2.5
         },
         {
@@ -196,12 +196,12 @@
         },
         {
           "name": "Supă de pui cu conținut scăzut de sodiu",
-          "quantityMetric": "mililitri",
+          "quantityMetric": "ml",
           "quantityValue": 320
         },
         {
           "name": "Cuscus",
-          "quantityMetric": "grame",
+          "quantityMetric": "g",
           "quantityValue": 280
         },
         {
@@ -211,7 +211,7 @@
         },
         {
           "name": "Pak choy",
-          "quantityMetric": "legături",
+          "quantityMetric": "leg",
           "quantityValue": 2
         },
         {
@@ -221,27 +221,27 @@
         },
         {
           "name": "Ulei de arahide",
-          "quantityMetric": "mililitri",
+          "quantityMetric": "ml",
           "quantityValue": 40
         },
         {
           "name": "Miere",
-          "quantityMetric": "grame",
+          "quantityMetric": "g",
           "quantityValue": 70
         },
         {
           "name": "Sriracha",
-          "quantityMetric": "grame",
+          "quantityMetric": "g",
           "quantityValue": 50
         },
         {
           "name": "Oțet de mere",
-          "quantityMetric": "mililitri",
+          "quantityMetric": "ml",
           "quantityValue": 30
         },
         {
           "name": "Ulei de susan",
-          "quantityMetric": "mililitri",
+          "quantityMetric": "ml",
           "quantityValue": 10
         }
       ]
@@ -263,7 +263,7 @@
         },
         {
           "name": "Coriandru",
-          "quantityMetric": "grame",
+          "quantityMetric": "g",
           "quantityValue": 10
         },
         {
@@ -283,12 +283,12 @@
         },
         {
           "name": "Chimen măcinat",
-          "quantityMetric": "grame",
+          "quantityMetric": "g",
           "quantityValue": 2.5
         },
         {
           "name": "Pudră de chili",
-          "quantityMetric": "grame",
+          "quantityMetric": "g",
           "quantityValue": 1.5
         },
         {
@@ -303,22 +303,22 @@
         },
         {
           "name": "Paprika afumată",
-          "quantityMetric": "grame",
+          "quantityMetric": "g",
           "quantityValue": 2.5
         },
         {
           "name": "Pudră de usturoi",
-          "quantityMetric": "grame",
+          "quantityMetric": "g",
           "quantityValue": 2.5
         },
         {
           "name": "Pudră de ceapă",
-          "quantityMetric": "grame",
+          "quantityMetric": "g",
           "quantityValue": 2.5
         },
         {
           "name": "Ulei de măsline",
-          "quantityMetric": "mililitri",
+          "quantityMetric": "ml",
           "quantityValue": 60
         },
         {
@@ -345,7 +345,7 @@
         },
         {
           "name": "Ghimbir",
-          "quantityMetric": "grame",
+          "quantityMetric": "g",
           "quantityValue": 20
         },
         {
@@ -360,52 +360,52 @@
         },
         {
           "name": "File de vită",
-          "quantityMetric": "grame",
+          "quantityMetric": "g",
           "quantityValue": 600
         },
         {
           "name": "Sos de soia cu conținut scăzut de sodiu",
-          "quantityMetric": "mililitri",
+          "quantityMetric": "ml",
           "quantityValue": 150
         },
         {
           "name": "Vin Shaoxing",
-          "quantityMetric": "mililitri",
+          "quantityMetric": "ml",
           "quantityValue": 70
         },
         {
           "name": "Praf de copt",
-          "quantityMetric": "grame",
+          "quantityMetric": "g",
           "quantityValue": 5
         },
         {
           "name": "Amidon de porumb",
-          "quantityMetric": "grame",
+          "quantityMetric": "g",
           "quantityValue": 10
         },
         {
           "name": "Supă de pui",
-          "quantityMetric": "mililitri",
+          "quantityMetric": "ml",
           "quantityValue": 120
         },
         {
           "name": "Zahăr brun",
-          "quantityMetric": "grame",
+          "quantityMetric": "g",
           "quantityValue": 20
         },
         {
           "name": "Sos de stridii",
-          "quantityMetric": "grame",
+          "quantityMetric": "g",
           "quantityValue": 60
         },
         {
           "name": "Tăiței Hokkien pre-gătiți",
-          "quantityMetric": "grame",
+          "quantityMetric": "g",
           "quantityValue": 600
         },
         {
           "name": "Ulei de arahide",
-          "quantityMetric": "mililitri",
+          "quantityMetric": "ml",
           "quantityValue": 20
         },
         {
@@ -432,47 +432,47 @@
         },
         {
           "name": "Ghimbir",
-          "quantityMetric": "grame",
+          "quantityMetric": "g",
           "quantityValue": 15
         },
         {
           "name": "Sos de soia cu conținut scăzut de sodiu",
-          "quantityMetric": "mililitri",
+          "quantityMetric": "ml",
           "quantityValue": 125
         },
         {
           "name": "Sos hoisin",
-          "quantityMetric": "mililitri",
+          "quantityMetric": "ml",
           "quantityValue": 60
         },
         {
           "name": "Vin Shaoxing",
-          "quantityMetric": "mililitri",
+          "quantityMetric": "ml",
           "quantityValue": 40
         },
         {
           "name": "Ulei de susan",
-          "quantityMetric": "mililitri",
+          "quantityMetric": "ml",
           "quantityValue": 15
         },
         {
           "name": "Boabe de piper Szechuan",
-          "quantityMetric": "grame",
+          "quantityMetric": "g",
           "quantityValue": 2
         },
         {
           "name": "Zahăr granulat",
-          "quantityMetric": "grame",
+          "quantityMetric": "g",
           "quantityValue": 9
         },
         {
           "name": "Amidon de porumb",
-          "quantityMetric": "grame",
+          "quantityMetric": "g",
           "quantityValue": 12
         },
         {
           "name": "Pulpe de pui fără os și piele",
-          "quantityMetric": "grame",
+          "quantityMetric": "g",
           "quantityValue": 1200
         },
         {
@@ -497,22 +497,22 @@
         },
         {
           "name": "Orez jasmin",
-          "quantityMetric": "grame",
+          "quantityMetric": "g",
           "quantityValue": 300
         },
         {
           "name": "Apă",
-          "quantityMetric": "mililitri",
+          "quantityMetric": "ml",
           "quantityValue": 500
         },
         {
           "name": "Alune prăjite",
-          "quantityMetric": "grame",
+          "quantityMetric": "g",
           "quantityValue": 50
         },
         {
           "name": "Ulei de arahide",
-          "quantityMetric": "mililitri",
+          "quantityMetric": "ml",
           "quantityValue": 30
         },
         {
@@ -554,57 +554,57 @@
         },
         {
           "name": "Pulpe de pui fără os și piele",
-          "quantityMetric": "grame",
+          "quantityMetric": "g",
           "quantityValue": 1000
         },
         {
           "name": "Amidon de porumb",
-          "quantityMetric": "grame",
+          "quantityMetric": "g",
           "quantityValue": 14
         },
         {
           "name": "Orez jasmin",
-          "quantityMetric": "grame",
+          "quantityMetric": "g",
           "quantityValue": 300
         },
         {
           "name": "Apă",
-          "quantityMetric": "mililitri",
+          "quantityMetric": "ml",
           "quantityValue": 500
         },
         {
           "name": "Alune prăjite",
-          "quantityMetric": "grame",
+          "quantityMetric": "g",
           "quantityValue": 50
         },
         {
           "name": "Ulei de arahide",
-          "quantityMetric": "mililitri",
+          "quantityMetric": "ml",
           "quantityValue": 20
         },
         {
           "name": "Sos de soia",
-          "quantityMetric": "mililitri",
+          "quantityMetric": "ml",
           "quantityValue": 60
         },
         {
           "name": "Sos de soia închis",
-          "quantityMetric": "mililitri",
+          "quantityMetric": "ml",
           "quantityValue": 40
         },
         {
           "name": "Mirin",
-          "quantityMetric": "mililitri",
+          "quantityMetric": "ml",
           "quantityValue": 70
         },
         {
           "name": "Sake de gătit",
-          "quantityMetric": "mililitri",
+          "quantityMetric": "ml",
           "quantityValue": 70
         },
         {
           "name": "Zahăr",
-          "quantityMetric": "grame",
+          "quantityMetric": "g",
           "quantityValue": 15
         },
         {
@@ -631,27 +631,27 @@
       "ingredients": [
         {
           "name": "Pastă de miso alb",
-          "quantityMetric": "grame",
+          "quantityMetric": "g",
           "quantityValue": 150
         },
         {
           "name": "Mirin",
-          "quantityMetric": "mililitri",
+          "quantityMetric": "ml",
           "quantityValue": 80
         },
         {
           "name": "Sos de soia",
-          "quantityMetric": "mililitri",
+          "quantityMetric": "ml",
           "quantityValue": 60
         },
         {
           "name": "Zahăr brun",
-          "quantityMetric": "grame",
+          "quantityMetric": "g",
           "quantityValue": 20
         },
         {
           "name": "Pastă de ghimbir",
-          "quantityMetric": "grame",
+          "quantityMetric": "g",
           "quantityValue": 15
         },
         {
@@ -661,7 +661,7 @@
         },
         {
           "name": "Fileuri de somon",
-          "quantityMetric": "grame",
+          "quantityMetric": "g",
           "quantityValue": 1200
         },
         {
@@ -676,22 +676,22 @@
         },
         {
           "name": "Fasole verde",
-          "quantityMetric": "grame",
+          "quantityMetric": "g",
           "quantityValue": 350
         },
         {
           "name": "Ulei de arahide",
-          "quantityMetric": "mililitri",
+          "quantityMetric": "ml",
           "quantityValue": 40
         },
         {
           "name": "Ulei de susan",
-          "quantityMetric": "mililitri",
+          "quantityMetric": "ml",
           "quantityValue": 10
         },
         {
           "name": "Semințe de susan",
-          "quantityMetric": "grame",
+          "quantityMetric": "g",
           "quantityValue": 5
         },
         {
@@ -2243,7 +2243,7 @@
         },
         {
           "name": "Broccolini",
-          "quantityMetric": "legături",
+          "quantityMetric": "leg",
           "quantityValue": 2
         },
         {

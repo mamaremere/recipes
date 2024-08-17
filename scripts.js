@@ -224,6 +224,23 @@ fetch("recipes.json")
 
         recipesContainer.appendChild(recipeDiv);
       });
+
+    const shoppingListContainer = document.getElementById(
+      "shopping-list-container"
+    );
+    const shoppingListTitle = document.getElementsByClassName(
+      "shopping-list-title"
+    )[0];
+    shoppingListTitle.onclick = () => {
+      if (
+        shoppingListContainer.style.display === "none" ||
+        shoppingListContainer.style.display === ""
+      ) {
+        shoppingListContainer.style.display = "block";
+      } else {
+        shoppingListContainer.style.display = "none";
+      }
+    };
   });
 
 function printRecipe(recipeDiv) {

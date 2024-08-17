@@ -47,6 +47,10 @@ th, td {
   padding-left: 20px;
 }
 
+.reset-button {
+  margin-left: 20px;
+}
+
 @media (min-width: 500px) and (max-width: 900px) {
   table {
       width: 75%;
